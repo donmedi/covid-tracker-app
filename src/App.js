@@ -18,6 +18,7 @@ function App() {
 
   const handleChangeCountry = (e) => {
     let index = e.target.value;
+    setVacIndex("First Dose");
     setCountryId(index);
     setFirstDose(newData[index].vaccinated.total.firstDose);
     setSecDose(newData[index].vaccinated.total.secondDose);
