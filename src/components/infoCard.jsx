@@ -6,7 +6,13 @@ export const InfoCard = ({ name, dose }) => {
     <div data-testid="card-1" className="card my-2">
       <div className="card-body">
         <div style={{ fontWeight: "400" }}>{name}</div>
-        <h3>{dose}</h3>
+        <h3>
+          <NumberFormat
+            value={dose}
+            displayType="text"
+            thousandSeparator={true}
+          />
+        </h3>
       </div>
     </div>
   );

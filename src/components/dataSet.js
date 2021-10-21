@@ -120,7 +120,7 @@ export const CountryData = [
     discharged: 1190,
     death: 11663,
     affected: {
-      daily: 9203,
+      daily: 903,
       monthly: 23000,
       monthlyCases: [
         { month: "january", total: 3054 },

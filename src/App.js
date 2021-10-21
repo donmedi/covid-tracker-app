@@ -4,7 +4,6 @@ import VaccinatedGraph from "./components/vaccinatedGraph";
 import NumberFormat from "react-number-format";
 import AffectedGraph from "./components/affectedGraph";
 import { CountryData } from "./components/dataSet";
-// import { InfoCard } from "./components/infoCard";
 import AllVaccinationData from "./components/allVaccinationData";
 
 function App() {
@@ -135,11 +134,8 @@ function App() {
           </div>
         </div>
       </div>
-      {/* ) : null} */}
     </div>
   );
 }
 
 export default App;
-
-// npx json-server --watch data/db.json --port 8080
